@@ -1,19 +1,37 @@
 .header__container {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
   justify-content: space-between;
-  color: rgb(22, 22, 22);
-  height: 30px;
-  font-size: 0.9rem;
 }
 
-.header__brandName {
-  font-weight: bold;
-}
-
-.header__options {
-  width: 10%;
+.header__leftSection {
+  width: 50%;
+  font-weight: 700;
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.header__midSection {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: 500;
+  align-items: center;
+}
+
+.header__rightSection {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  align-items: center;
 }
