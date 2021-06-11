@@ -9,7 +9,7 @@ function ProductPage({ match }) {
   return (
     <div className="productPage__container">
       <div className="productPage__productImage">
-        <img src={product.image} alt="Loading..." width="100%" height="100%" />
+        <img src={product.image} alt="Loading..." width="80%" height="80%" />
       </div>
       <div className="productPage__productText">
         <div className="productPage__productHeader">{product.name}</div>
